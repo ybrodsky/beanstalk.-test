@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  return res.send('one');
+  return res.send('two');
 });
 
 app.post('/', (req, res) => {
